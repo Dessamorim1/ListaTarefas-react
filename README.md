@@ -16,19 +16,19 @@ O usuário pode **adicionar** e **remover** tarefas dinamicamente.
 
 ## 📥 Como Executar o Projeto
 
-## 1️⃣ Clone o repositório  
+### 1️⃣ Clone o repositório  
 git clone https://github.com/SIN-disciplina-PI2/Lista-Tarefas.git
 
-## 2️⃣ Entre no diretório  
+### 2️⃣ Entre no diretório  
 cd minha-todo
 
-## 3️⃣ Instale as dependências  
+### 3️⃣ Instale as dependências  
 npm install
 
-## 4️⃣ Execute o projeto  
+### 4️⃣ Execute o projeto  
 npm run dev
 
-5️⃣ Acesse no navegador  
+### 5️⃣ Acesse no navegador  
 http://localhost:5173
 
 ---
@@ -43,7 +43,7 @@ Este projeto foi criado para aprender:
 - Renderização de listas (map)  
 - Remoção de itens (filter)  
 - Manipulação de eventos  
-- Estilização com CSS 
+- Estilização com CSS  
 
 ---
 
@@ -52,14 +52,15 @@ Este projeto foi criado para aprender:
 A interface foi estilizada com:
 
 - CSS próprio  
-- Bootstrap 
+- Bootstrap  
 - Layout simples e organizado  
 
 ---
 
 ## 🌐 Deploy
 
-[https://seu-projeto.vercel.app](https://lista-tarefas-react-delta.vercel.app/)
+🔗 **Acesse o site publicado:**  
+https://lista-tarefas-react-delta.vercel.app/
 
 ---
 
@@ -71,3 +72,4 @@ A interface foi estilizada com:
 - Atualização de estado  
 - Arrays imutáveis  
 - Deploy na Vercel  
+

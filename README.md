@@ -16,16 +16,16 @@ O usuário pode **adicionar** e **remover** tarefas dinamicamente.
 
 ## 📥 Como Executar o Projeto
 
-1️⃣ Clone o repositório  
+## 1️⃣ Clone o repositório  
 git clone https://github.com/SIN-disciplina-PI2/Lista-Tarefas.git
 
-2️⃣ Entre no diretório  
+## 2️⃣ Entre no diretório  
 cd minha-todo
 
-3️⃣ Instale as dependências  
+## 3️⃣ Instale as dependências  
 npm install
 
-4️⃣ Execute o projeto  
+## 4️⃣ Execute o projeto  
 npm run dev
 
 5️⃣ Acesse no navegador  
@@ -44,37 +44,6 @@ Este projeto foi criado para aprender:
 - Remoção de itens (filter)  
 - Manipulação de eventos  
 - Estilização com CSS 
-
----
-
-## 📂 Lógica Principal
-
-Estado:  
-const [tarefas, setTarefas] = useState([]);  
-const [input, setInput] = useState("");
-
-Adicionar tarefa:  
-function adicionarTarefa() {  
-  if (input) {  
-    setTarefas([...tarefas, input]);  
-    setInput("");  
-  }  
-}
-
-Remover tarefa:  
-function removerTarefa(index) {  
-  setTarefas(tarefas.filter((t, i) => i !== index));  
-}
-
-Renderização da lista:  
-<ul>  
-  {tarefas.map((tarefa, index) => (  
-    <li key={index}>  
-      {tarefa}  
-      <button onClick={() => removerTarefa(index)}>Remover</button>  
-    </li>  
-  ))}  
-</ul>
 
 ---
 
